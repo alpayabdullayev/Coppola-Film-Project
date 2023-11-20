@@ -13,7 +13,7 @@ const Speakers = () => {
             <div className="speakersSect">
                 <SectionTitle rengi={"blackH4"} title={"SPEAKERS"}/>
                 <div className="speakersContentSection row">
-                    <SpeakersContent title={"LEARNING FROM EXPERTS"} desc={"Et pri magna evertitur. Ne qui doctus interesset, ad eum ullum accusam, te nam iusto iisque omittam. Elit nobis magnas iust."}/>
+                    <SpeakersContent  title={"LEARNING FROM EXPERTS"} desc={"Et pri magna evertitur. Ne qui doctus interesset, ad eum ullum accusam, te nam iusto iisque omittam. Elit nobis magnas iust."}/>
                     <SpeakersSlider/>   
                 </div>
             </div>

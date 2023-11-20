@@ -10,7 +10,7 @@ const MagazineContent = () => {
 
   return (
     <>
-      <div className="col-12 col-lg-6">
+      <div className="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="2000">
         <SectionTitle rengi={"blackH4"} title={"MAGAZINE"} />
 
         <div className="sectionContentMagazine">
@@ -22,7 +22,7 @@ const MagazineContent = () => {
             </div>
         </div>
       </div>
-      <div className="col-12 col-lg-6">
+      <div className="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
         <img src="https://coppola.qodeinteractive.com/wp-content/uploads/2021/12/blog-list-h4.jpg" alt="" />
       </div>
     </>

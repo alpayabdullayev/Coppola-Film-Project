@@ -121,7 +121,7 @@
     "tickets": [
         {
             "id": 1,
-            "title": "ONE DAY",
+            "title": "lale alpay ask",
             "type": "Type: Regular ticket",
             "price" : 10,
             "desc" : "*Lorem ipsum dolor, sit amet consectetur adipisicing."

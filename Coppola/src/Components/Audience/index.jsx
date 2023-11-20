@@ -14,10 +14,10 @@ const Audience = () => {
                 <SectionTitle  title={"AUDIENCE CHOICE"}/>
                 <div className="audiContent">
                     <div className="row">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-md-6" data-aos="fade-right" data-aos-duration="2000">
                             <VideoAudience/>    
                         </div>
-                        <div className="col-12 col-md-6 infoAudi">
+                        <div className="col-12 col-md-6 infoAudi" data-aos="fade-left" data-aos-duration="2000">
                            <Documentary/>
                         </div>
                     </div>

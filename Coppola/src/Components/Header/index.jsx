@@ -208,7 +208,7 @@ const Header = () => {
                     <p className="sliderContent-p">
                       SELECT PRODUCTION PRESENTS
                     </p>
-                    <h1 className="sliderContent-title">BACK TO NATURE</h1>
+                    <h1 className="sliderContent-title">INTO THE COSMOS</h1>
                     <div className="logoandBtn">
                       <div className="logoImg">
                         <img

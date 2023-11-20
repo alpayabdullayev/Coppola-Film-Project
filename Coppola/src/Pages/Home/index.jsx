@@ -11,6 +11,10 @@ import Tickets from '../../Components/Tickets'
 import BrandLogo from '../../Components/BrandLogo'
 import Footer from '../../Layout/Footer'
 
+
+import AOS from 'aos'
+import'aos/dist/aos.css'
+AOS.init();
 const Home = () => {
   return (
     <>

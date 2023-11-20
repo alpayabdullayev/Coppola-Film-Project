@@ -14,6 +14,7 @@ import Footer from '../../Layout/Footer'
 
 import AOS from 'aos'
 import'aos/dist/aos.css'
+import BackToTop from '../../Components/BactkToTop'
 AOS.init();
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
         <Speakers/>
         <Tickets/>
         <BrandLogo/>
+        <BackToTop/>
       </main>
         <footer>
           <Footer/>

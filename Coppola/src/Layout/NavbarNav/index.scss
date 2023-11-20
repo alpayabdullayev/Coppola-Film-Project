@@ -1,0 +1,118 @@
+#navbar-nav{
+    background-color: #000;
+    height: 72px;
+    display: none;
+    z-index: 9;
+    .navbarNav-cotent{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 72px;
+        padding: 15px;
+
+        .navbarNav-Logo{
+            width: 100px;
+        }
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            transition: all 0.3s;
+            gap: 5px;
+      
+            .bar {
+              width: 35px;
+              height: 4px;
+              background-color: #fff;
+              transition: all 0.3s;
+      
+              &:last-child {
+               width: 20px;
+            //    margin-left: 15px;
+              }
+            }
+      
+            &:hover {
+              .bar {
+                width: 35px;
+               
+      
+                &:last-child {
+                    // width: 40px;
+                    margin-right: 5px;
+                }
+      
+                &:first-child {
+                  width: 35%;
+                  margin-left: 23px;
+                }
+              }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar-nav{
+        display: block;
+ 
+    }
+    .navbarNavSidebar{
+      display: block !important;
+    }
+}
+
+
+.navbarNavSidebar{
+    transform: translateY(-100px);
+    transition: all 0.5s ease;
+    background-color: black;
+    height: 0;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    right: 0;
+    .navbarNavSideBarUl{
+      li{
+        padding-top: 10px;
+        a{
+          position: relative;
+          &::before{
+              content: '';
+              position: absolute;
+              left: 0;
+              bottom: -10px;
+              width: 100%;
+              height: 2px;
+              background-color: #eaa57f;
+              transform: scaleX(0);
+              transition: transform .9s ease;
+              transform-origin: right;
+          }
+          &:hover::before{
+              transform-origin: left;
+              transform: scaleX(1);
+          }
+        }
+
+      }
+      .Home{
+        a{
+            color: #eaa57f;
+        }
+    } 
+  }
+
+}
+.navbarNavSidebar.active {
+    transform: translateY(58px);
+    opacity: 1;
+    visibility: visible;
+    height: 30vh;
+    display: none;
+}

@@ -1,0 +1,42 @@
+#popularMovies{
+    background-color: black;
+    .popularMovies{
+        color: white;
+        .ButtonsSect{
+            display: flex;
+            justify-content: space-between;
+            .inputSearch{
+                .search{
+                    background: none;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    border-bottom: 1px solid white;
+                }
+            }
+            .sortButtons{
+                button{
+                    border: none;
+                    background: none;
+                    color: white;
+                    padding: 10px 25px;
+                    cursor: pointer;
+                    margin-left: 2px;
+                }
+            }
+
+            .CategoryIdButtons{
+                button{
+                    border: none;
+                    background: none;
+                    color: white;
+                    border-left: 1px solid white;
+                    padding: 10px 25px;
+                    cursor: pointer;
+
+                }
+            }
+        }
+       
+    }
+}

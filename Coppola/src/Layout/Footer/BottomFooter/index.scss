@@ -1,0 +1,42 @@
+.bottomFooter{
+    min-height: 30vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid white;
+    .footerBootom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .social-icons{
+            padding-left: 40px;
+            span{
+                font-size: 22px;
+                padding-left: 10px;
+            }
+        }
+
+        input{
+            background: none;
+            border: none;
+            font-size: 22px;
+            color: white;
+            border-bottom: 2px solid white;
+
+            &::placeholder{
+                color: white;
+            }
+        }
+    }
+}
+
+.justify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}

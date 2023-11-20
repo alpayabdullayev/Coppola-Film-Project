@@ -1,0 +1,12 @@
+.descSlide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        font-size: 44px;
+    }
+    p{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+}

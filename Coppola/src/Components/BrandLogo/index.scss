@@ -1,0 +1,18 @@
+#brandLogo{
+    padding: 30px 0;
+    border-top:1px solid #888 ;
+
+    
+    .logoBrandlogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logomdu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

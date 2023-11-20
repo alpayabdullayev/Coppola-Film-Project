@@ -1,0 +1,90 @@
+header{
+   min-height: 90vh;
+    .mySwiper{
+        .slide-1{
+            background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-rev-img1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .slide-2{
+            background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-rev-img3.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .slide-3{
+            background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-rev-img2.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+    }
+}
+
+
+
+.slider-content{
+    .sliderInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 80px 0;
+        .sliderInfo-h3{
+            width: 250px;
+            font-size: 24px;
+            color: white;
+            padding-bottom: 10px;
+        }
+        .sldierInfo-p{
+            padding-top: 10px;
+            font-size: 16px;
+            color: white;
+        }
+
+    }
+    .sliderContent{
+        p{
+            font-size: 18px;
+            color: #fdf24e;
+            font-weight: 700;
+        }
+        h1{
+            font-size: 80px;
+            color: #fdf24e;
+        }
+        .logoandBtn{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            flex-wrap: wrap;
+            .logoImg{
+                padding-bottom: 20px;
+                img{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.swiper {
+  width: 100%;
+  height: 90vh;
+}
+
+
+
+.swiper-pagination-bullet{
+    color: white;
+    background-color: white;
+    margin-right: 40px !important;
+
+}
+
+
+

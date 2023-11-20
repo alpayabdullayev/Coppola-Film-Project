@@ -1,0 +1,81 @@
+.ticketsContent{
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .ticket{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d2cab9;
+        
+        .ticketLeft{
+            max-width: 350px;
+            min-height: 250px;
+            border-right: 1px dashed black;
+            padding: 35px;
+            h2{
+                padding-bottom: 30px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                padding-bottom: 10px;
+            }
+            .lorem7{
+                border-top: 1px dashed black;
+                padding-top: 20px;
+                p{font-size: 14px;}
+            }
+
+        }
+        .ticketRight{
+            min-width: 100px;
+            min-height: 250px;
+            position: relative;
+            .circleSpan{
+                position: absolute;
+                right: 17px;
+                top: 15px;
+                width: 37px;
+                height: 37px;
+                border-radius: 50%;
+                background-color: #eaa57f;
+            }
+            .h5Buy{
+                position: absolute;
+                left: 17px;
+                bottom: 50px;
+                padding-top: 20px;
+                border-top: 1px dashed black;
+            }
+
+
+        }
+    }
+}
+.ticketsContent .ticket:nth-child(3){
+    background-color: #F3F3F3;
+}
+.ticketsContent .ticket:nth-child(2){
+    background-color: #000;
+    color: white;
+    .ticketLeft{
+
+        border-right: 1px dashed white;
+        }
+    .lorem7{
+        border-top: 1px dashed white;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .ticketRight{
+        min-width: 70px;
+    }
+}

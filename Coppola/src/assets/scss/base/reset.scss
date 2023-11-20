@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+}
+a:link{
+    text-decoration: none!important;
+    cursor: pointer;
+
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul,li{
+    list-style: none;
+}
+video{
+    max-width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}

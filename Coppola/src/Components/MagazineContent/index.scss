@@ -1,0 +1,34 @@
+.sectionContentMagazine{
+    padding-bottom: 30px;
+    p{
+        padding-bottom: 15px;
+        a{
+            padding: 0 8px;
+            color: black;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: #d2cab9;
+            transition: all 0.5s ease;
+            &:hover{
+                background-color: #ebbb9d;
+            transition: all 0.5s ease;
+
+            }
+        }
+    }
+    h1{
+        font-size: 44px;
+        font-weight: 600;
+        padding: 5px 0;
+    }
+    .descMagazine{
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 0;
+    }
+
+    .magazineButton{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}

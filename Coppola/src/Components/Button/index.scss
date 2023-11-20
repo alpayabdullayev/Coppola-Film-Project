@@ -1,0 +1,33 @@
+.pageBtn {
+    .pageBtnA {
+        padding: 10px 20px;
+        font-weight: 500;
+
+        // border: 1px solid black;
+
+
+        &.white {
+            border: 2px solid black;
+            transition: all 0.5s ease;
+
+            color: black;
+            &:hover{
+                color: white;
+                background-color: black;
+                transition: all 0.5s ease;
+
+            }
+        }
+
+        &.black {
+            border: 2px solid white;
+            transition: all 0.5s ease;
+
+            &:hover{
+                color: black;
+                background-color: white;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}

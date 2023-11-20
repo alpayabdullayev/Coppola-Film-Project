@@ -1,0 +1,11 @@
+.SectionTitle{
+    padding-bottom: 50px;
+    padding-top: 80px;
+    .sectionH4{
+        color: white;
+
+        &.blackH4{
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.popularCards {
+    padding: 50px 0;
+  
+    .popularCard {
+      padding-left: 15px;
+  
+      .imgMovie {
+        position: relative;
+        &:hover .black{
+            opacity: 1;
+          visibility: visible;
+          transform: translateY(-40px);
+
+        }
+        
+  
+        .black {
+          position: absolute;
+          opacity: 0;
+          visibility: hidden;
+          left: 50px;
+          bottom: 10px;
+          transition: all 0.5s ease;
+          transform: translateY(0);
+
+        }
+      }
+    }
+  }
+  

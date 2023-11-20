@@ -1,0 +1,24 @@
+.portfolioCard{
+    position: relative;
+    padding-left: 10px;
+
+    .portfolioImg{
+        transition: all 0.5s ease;
+
+        img{
+
+            transition: all 0.5s ease;
+            &:hover{
+                filter: blur(1px);
+            }
+        }
+    }
+
+    .portfolioContent{
+        position: absolute;
+        left: 20px;
+        bottom: 50px;
+        color: white;
+
+    }
+}
